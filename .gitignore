@@ -1,0 +1,27 @@
+# --- LaTeX: archivos temporales de compilación ---
+*.aux
+*.log
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.toc
+*.out
+*.bbl
+*.blg
+*.lof
+*.lot
+*.nav
+*.snm
+*.vrb
+
+# --- Jupyter / Python ---
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+
+# --- Sistema ---
+.DS_Store
+Thumbs.db
+
+# --- Datos pesados o sensibles (descomenta si no quieres subir el CSV) ---
+# consolidado_bogota.csv
