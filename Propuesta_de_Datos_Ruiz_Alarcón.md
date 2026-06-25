@@ -6,7 +6,6 @@
 
 **Maestría en Ciencia de Datos — Universidad Santo Tomás**
 
----
 
 ## 1. Problema y cliente
 
@@ -34,9 +33,9 @@ Este problema es la base del proyecto de grado de los autores (línea de investi
 
 Estos datos no provienen de Kaggle ni de ningún *mirror* de Kaggle. La base fue **consolidada manualmente por los autores** a partir de las fuentes oficiales citadas, como parte de su proyecto de grado.
 
-## 4. Por qué no es un reto ya resuelto
+## 4. ¿Por qué no es un reto ya resuelto?
 
-No existe un dataset preempaquetado ni una competencia pública que combine estas series ya etiquetadas con un evento de riesgo del poder adquisitivo del SMLV colombiano. La consolidación mensual de IPC, TRM y salario nominal en una sola tabla, así como la definición del evento de riesgo, es trabajo original de los autores, desarrollado en el marco de su proyecto de grado y anterior a este curso.
+No existe un dataset pre-empaquetado ni una competencia pública que combine estas series ya etiquetadas con un evento de riesgo del poder adquisitivo del SMLV colombiano. La consolidación mensual de IPC, TRM y salario nominal en una sola tabla, así como la definición del evento de riesgo, es trabajo original de los autores, desarrollado en el marco de su proyecto de grado y anterior a este curso.
 
 ## 5. Descripción del conjunto de datos (EDA preliminar)
 
@@ -56,6 +55,4 @@ No existe un dataset preempaquetado ni una competencia pública que combine esta
 - **Representatividad:** el piloto usa solo Bogotá; los resultados no son directamente generalizables a las 13 áreas metropolitanas del DANE ni al ámbito rural, donde la dinámica de precios puede diferir.
 - **Uso indebido:** el modelo no debe usarse como única base para decisiones de política salarial; es una herramienta de apoyo, no un sustituto del análisis experto, dado el tamaño reducido de la muestra (~290 registros útiles) y el fuerte desbalance de clases.
 
----
 
-*Esta propuesta está pendiente de aprobación por el docente. Una vez aprobada, se referenciará como anexo del Notebook, el Informe técnico-ético y la Bitácora de IA.*
