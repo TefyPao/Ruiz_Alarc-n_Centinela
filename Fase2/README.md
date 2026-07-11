@@ -39,17 +39,8 @@ Fase2/
 │   ├── viz_cliente_1_trm_regimen.pdf
 │   ├── viz_cliente_2_distribucion_anual.pdf
 │   └── viz_cliente_3_alerta_actual.pdf
-├── figuras/
-│   ├── curvas_fase2.pdf
-│   ├── gradiente_fase2.pdf
-│   ├── fig_curvas_comparacion.pdf
-│   ├── fig_cm_comparacion.pdf
-│   ├── fig_gradcam_v2.pdf
-│   ├── fig_curvas_ablacion.pdf
-│   └── fig_cm_ablacion.pdf
 ├── trm_diaria_limpia.csv
 ├── Informe_Fase2_Centinela.pdf
-├── Presentacion_Fase2_Limpia.pdf
 ├── Bitacora_IA_Fase2.md
 └── README.md
 ```
