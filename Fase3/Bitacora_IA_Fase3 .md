@@ -3,7 +3,7 @@
 
 **Autores:** Estefanny Ruíz González · Miguel Alarcón Ojeda  
 **Herramienta:** Claude (Anthropic) — Claude Code + conversacional  
-**Período:** 16–20 julio 2026
+
 
 ---
 
@@ -128,3 +128,45 @@ de cuantización, qué reportar honestamente — fueron tomadas por los autores.
 
 Los autores asumen plena responsabilidad sobre el contenido de todos los
 entregables y están en capacidad de sustentar cada decisión técnica.
+
+---
+
+## Actualización post-retroalimentación docente (julio 2026)
+
+### Correcciones incorporadas en la Fase 3 a partir del feedback de la Fase 2
+
+**Fallo auditado: justificación de Feature Extraction vs Fine-Tuning estaba invertida.**
+El informe de la Fase 2 argumentaba que Feature Extraction era apropiada "porque
+el dominio difiere de ImageNet". La retroalimentación del docente señala que la
+regla estándar es exactamente la opuesta: con dominio muy distinto de ImageNet y
+más de 1.000 imágenes, se pide Fine-Tuning, no congelar. El argumento del
+sobreajuste corresponde al caso de datos escasos. En la Fase 3 se corrigió
+documentando Fine-Tuning parcial: descongelar las últimas dos capas convolucionales
+además de la cabeza clasificadora.
+
+**Fallo auditado: transformaciones de augmentation inválidas sobre matrices de recurrencia.**
+En la Fase 2 se aplicaron RandomRotation y RandomHorizontalFlip sin cuestionar
+su validez semántica. La retroalimentación del docente señala que los ejes de la
+matriz de recurrencia son el tiempo — rotar destruye la estructura temporal, el
+volteo rompe la simetría diagonal. En la Fase 3 se declararon inválidas en el
+informe y en la presentación, con columna de validez explícita en la tabla.
+
+**Fallo auditado: líneas base omitidas.**
+Los resultados de la Fase 2 se reportaron sin mencionar que la clase mayoritaria
+acierta el 40.1% sin modelo. En la Fase 3 la tabla de optimización Edge incluye
+explícitamente la línea base, y la discusión señala que la CNN con 0.335 queda
+por debajo de esa línea base — lo que confirma que el problema es la codificación,
+no la arquitectura.
+
+**Corrección pendiente documentada: Gramian Angular Field.**
+La retroalimentación señala que la matriz de recurrencia es invariante al nivel
+medio de la ventana (R(r+c) = R(r)), pero la etiqueta depende exactamente de ese
+nivel medio. La corrección directa es el Gramian Angular Field, que preserva nivel
+y signo. Esta corrección se documentó en el informe de la Fase 3 y en la
+presentación como aprendizaje honesto, no como defensa del resultado obtenido.
+
+### Decisión autónoma
+Los autores decidieron incorporar estas correcciones proactivamente en los
+entregables de la Fase 3, sin esperar a que el profe las exigiera. La postura
+adoptada en la sustentación es la que el profe indicó: reconocer el problema
+y señalar la solución demuestra más dominio que defender el 49.7%.

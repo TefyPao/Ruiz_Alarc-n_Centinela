@@ -1,10 +1,10 @@
 # Proyecto Centinela — Fase 3
-## Pipeline, GPU y Despliegue (De Colab al Cafetal)
+## Pipeline, GPU y Despliegue
 
 **Autores:** Estefanny Ruíz González · Miguel Alarcón Ojeda  
-**Curso:** Profundización I — Redes Neuronales / Deep Learning (EA-N-F-004)  
+**Curso:** Profundización I — Redes Neuronales / Deep Learning  
 **Maestría en Ciencia de Datos — Universidad Santo Tomás**  
-**Entrega:** 20 de julio de 2026
+
 
 ---
 
