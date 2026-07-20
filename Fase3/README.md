@@ -1,5 +1,5 @@
 # Proyecto Centinela — Fase 3
-## Pipeline, GPU y Despliegue (De Colab al Cafetal)
+## Pipeline, GPU y Despliegue
 
 **Autores:** Estefanny Ruíz González · Miguel Alarcón Ojeda  
 **Curso:** Profundización I — Redes Neuronales / Deep Learning
