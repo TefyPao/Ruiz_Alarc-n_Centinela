@@ -3,7 +3,6 @@
 
 **Autores:** Estefanny Ruíz González · Miguel Alarcón Ojeda  
 **Herramienta:** Claude (Anthropic) — Claude Code + conversacional  
-**Período:** 16–20 julio 2026
 
 ---
 
