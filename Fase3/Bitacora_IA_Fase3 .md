@@ -4,7 +4,6 @@
 **Autores:** Estefanny Ruíz González · Miguel Alarcón Ojeda  
 **Herramienta:** Claude (Anthropic) — Claude Code + conversacional  
 
-
 ---
 
 ## Propósito

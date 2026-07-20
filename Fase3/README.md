@@ -41,7 +41,7 @@ Fase3/
 │   ├── centinela_fase3_gru.onnx
 │   └── centinela_fase3_gru.onnx.data
 ├── trm_diaria_limpia.csv
-├── Informe_Fase3_Centinela .pdf
+├── Informe_Fase3_Centinela.pdf
 ├── Bitacora_IA_Fase3 .md
 └── README.md
 ```
