@@ -51,7 +51,7 @@ que los `.pt` de la Fase 2.
 
 ---
 
-## Qué se hizo
+## ¿Qué se hizo?
 
 1. **Pipeline de datos:** las 6.277 matrices de recurrencia (PNG 30×30) se
    materializan en disco (`imagenes/{train,val,test}/<clase>/`) y se comparan
